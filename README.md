@@ -1,74 +1,16 @@
-# FeedX 🚀
+# React + Vite
 
-FeedX is a scalable, real-time **Social Media Platform** that enables users to create posts, like, comment, and follow others. It offers a personalized news feed, real-time notifications, hashtag-based trends, and content moderation to ensure a safe and engaging experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built using the **MERN Stack**, **Socket.IO** for real-time updates, and **Redis** for caching and performance optimization.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🌟 Key Features
+## React Compiler
 
-### 👤 User Features
-- User authentication & authorization (JWT)
-- Create, edit, and delete posts
-- Like and comment on posts
-- Follow & unfollow users
-- Personalized news feed
-- Hashtags & trending topics
-- User profiles with followers/following count
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-### ⚡ Real-Time Features
-- Instant notifications (likes, comments, follows)
-- Live comment updates
-- Real-time feed refresh
-
-Powered by **Socket.IO**
-
----
-
-### 🛡️ Content Moderation
-- Profanity & spam filtering
-- Report posts or users
-- Admin moderation tools
-
----
-
-### 📈 Performance & Scalability
-- Redis caching for feeds & trending hashtags
-- Optimized MongoDB queries
-- Scalable schema design
-- Rate limiting & secure APIs
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React.js
-- JavaScript (ES6+)
-- HTML5, CSS3
-- Tailwind CSS / Bootstrap
-
-### Backend
-- Node.js
-- Express.js
-- REST APIs
-- Socket.IO
-
-### Database
-- MongoDB
-- Mongoose ODM
-
-### Caching
-- Redis
-
-### Authentication
-- JWT (JSON Web Tokens)
-- bcrypt
-
----
-
-## 📂 Project Structure
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
